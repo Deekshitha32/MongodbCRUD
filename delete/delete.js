@@ -1,4 +1,3 @@
-//import modules
 const express = require('express')
 let mongodb = require('mongodb')
 //import url
@@ -39,3 +38,4 @@ router.delete("/", (req, res) => {
 
 //export router
 module.exports = router
+//delete
